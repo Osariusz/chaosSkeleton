@@ -2,6 +2,7 @@ package com.osariusz.init;
 
 import com.osariusz.chaosskeleton.ChaosSkeletonMod;
 import com.osariusz.chaosskeleton.mobs.ChaosSkeleton;
+import com.osariusz.chaosskeleton.mobs.ChaosSkeletonRenderer;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.client.renderer.entity.SkeletonRenderer;
 import net.minecraft.resources.ResourceLocation;
@@ -24,7 +25,7 @@ public class EntityInit {
     }
 
     public static void clientRegister(){
-        EntityRenderers.register(CHAOS_SKELETON.get(), SkeletonRenderer::new);
+        EntityRenderers.register(CHAOS_SKELETON.get(), ChaosSkeletonRenderer::new);
     }
 
 }
