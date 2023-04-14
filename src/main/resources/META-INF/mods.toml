@@ -1,6 +1,8 @@
 modLoader="javafml"
 loaderVersion="[36,)"
-license="All rights reserved"
+license="GNU GPL v3"
+
+logoFile="logo.png"
 
 [[mods]]
 modId="chaosskeleton"
